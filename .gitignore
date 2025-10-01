@@ -1,0 +1,60 @@
+# Diretórios de plugins (gerenciados pelo lazy.nvim)
+lazy-lock.json
+plugin/
+
+# Dados do lazy.nvim
+.lazy/
+
+# Arquivos de sessão
+*.vim
+*.nvim
+session/
+sessions/
+
+# Arquivos de undo
+undodir/
+*.un~
+
+# Arquivos de backup
+*~
+*.swp
+*.swo
+*.swn
+backup/
+
+# Logs
+*.log
+
+# Arquivos de LSP
+.null-ls_*
+.nvimlog
+
+# Arquivos do Mason (gerenciador de LSP servers)
+mason/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos do Telescope
+telescope.nvim/
+
+# Spell check
+spell/
+*.spl
+*.sug
+
+# Arquivos de debug
+dap/
+
+# Luacheck cache
+.luacheckrc.cache
+
+# Arquivos temporários do Tree-sitter
+parser/
+parser-info/
+
+# Configurações locais/pessoais (opcional)
+# lua/config/local.lua
+# init.local.lua
